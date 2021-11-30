@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: black;
+    color: blanchedalmond;
+    font-family: Tahoma, sans-serif;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+        }
+        
+        .top-row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+    }
+
+    button {
+        display: block;
+        background-color: black;
+        color: blanchedalmond;
+        border: blanchedalmond dashed 1px;
+        text-align: left;
+        width: 13em;
+        margin: 1em;
+        padding: 1em;
+        cursor: pointer;
+
+        &:hover {
+            color: red;
+            border-color: red;
+        }
+    }
+}

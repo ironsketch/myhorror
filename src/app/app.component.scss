@@ -1,0 +1,41 @@
+.navigation {
+    display: block;
+}
+
+.header {
+    margin-bottom: 1em;
+
+    .title {
+        font-size: 2em;
+    }
+}
+
+input.search-box {
+    background-color: black;
+    text-align: left;
+    color: blanchedalmond;
+    border: blanchedalmond dashed 1px;
+    height: 3em;
+    padding-left: 1em;
+
+    &:active {
+        color: red;
+        outline: none;
+        border: blanchedalmond dashed 1px;
+    }
+
+    &:focus {
+        color: red;
+        outline: none;
+        border: blanchedalmond dashed 1px;
+    }
+}
+
+.main-page {
+    display: block;
+    flex-grow: 1;
+
+    .unknown-image {
+        text-align: right;
+    }
+}
