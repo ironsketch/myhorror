@@ -1,0 +1,27 @@
+.movie-container {
+    .header {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .right-movie-container {
+        padding: 1em;
+
+        .description {
+            margin-bottom: 1em;
+        }
+        
+        .stars {
+            text-align: center;
+            margin-bottom: 1em;
+        
+            span.star-numbers {
+                font-size: 1.5em;
+                padding-left: 1em;
+            }
+        }
+        .pros-cons {
+            margin-bottom: 1em;
+        }
+    }    
+}

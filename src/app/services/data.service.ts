@@ -14,7 +14,6 @@ export class DataService {
         const allMovies: MovieModel[] = [];
         return this.httpClient.get('assets/files/movies.txt', {responseType: 'text'}).pipe(map((data) => {
             const movies = data.split('=====================');
-            console.log(movies);
             movies.forEach(movie => {
                 const newMovie = new MovieModel();
                 const movieInfo = movie.split('\n');
@@ -46,7 +45,10 @@ export class DataService {
                 break;
             } 
             case 'stars': {
-                movie.stars = parseInt(data.replace('\r', ''));
+                const star = parseInt(data.replace('\r', ''));
+                for( let i = 0; i < star; i++) {
+                    movie.stars.push(i);
+                }
                 break;
             }
             case 'pros': {

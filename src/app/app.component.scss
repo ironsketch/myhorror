@@ -1,3 +1,8 @@
+.container {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 .navigation {
     display: block;
 }
@@ -37,5 +42,9 @@ input.search-box {
 
     .unknown-image {
         text-align: right;
+    }
+
+    .top-row {
+        margin-bottom: 1em;
     }
 }

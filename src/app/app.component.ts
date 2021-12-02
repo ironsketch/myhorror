@@ -11,11 +11,11 @@ export class AppComponent {
     title = 'My Horror';
     movies: MovieModel[] = [];
     filteredMovies: MovieModel[] = [];
+    searchS = '';
     
     constructor(private dataService: DataService) {
         this.dataService.loadMovies().subscribe(response => {
             this.movies = response;
-            console.log(this.movies);
         });
     }
 
@@ -26,5 +26,12 @@ export class AppComponent {
 
     filteredMoviesIsEmpty(): boolean {
         return this.filteredMovies.length === 0;
+    }
+
+    search(event: any) {
+        if (this.searchS.length >= 3) {
+            this.filteredMovies = [];
+            this.filteredMovies = this.movies.filter(movie => movie.title.toLowerCase().includes(this.searchS));
+        }
     }
 }

@@ -1,11 +1,11 @@
 export class MovieModel {
-    title?: string;
-    description?: string;
-    genre?: string[];
-    stars?: number;
-    pros?: string;
-    cons?: string;
-    poster?: string;
+    title = '';
+    description = '';
+    genre: string[] = [];
+    stars: number[]= [];
+    pros = '';
+    cons = '';
+    poster = '';
 
     constructor() {
         

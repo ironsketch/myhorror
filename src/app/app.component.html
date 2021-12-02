@@ -16,7 +16,7 @@
                 <div class="header">
                     <div class="title">My Horror</div>
                 </div>
-                <input class="search-box" type="text" pInputText placeholder="Search"/>
+                <input class="search-box" (keyup)="search($event)" [(ngModel)]="searchS" type="text" pInputText placeholder="Search"/>
             </div>
             <div class="front-page">
                 <ng-container *ngIf="filteredMoviesIsEmpty()">
@@ -26,7 +26,11 @@
                     what I saw. So I made this website to quickly help share what I have seen with friends : D
                 </ng-container>
                 <ng-container *ngIf="!filteredMoviesIsEmpty()">
-                    MEOW {{ filteredMovies.length }}
+                    <p-accordion>
+                        <ng-container *ngFor="let filteredMovie of filteredMovies">
+                            <app-movie [movie]="filteredMovie"></app-movie>
+                        </ng-container>
+                    </p-accordion>
                 </ng-container>
             </div>
         </div>
