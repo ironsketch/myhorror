@@ -1,5 +1,5 @@
 title:The Deep House (2021)
-description:A house is underwater and two white people go under water to look at it. Part found footage.
+description:A young and modern couple who go to France to explore an underwater house and share their findings on social media undergoes a serious change of plans when the couple enters the interior of a strange house located at the bottom of a lake and their presence awakens a dark spirit that haunts the house.
 genre:found footage
 stars:7
 pros:Not everything is idealized. Places and experiences look more realistic. The music is good.
@@ -7,9 +7,17 @@ cons:Actors look unrealistic. Smoking is bad for you.
 poster:thedeephouse.jpg
 =====================
 title:The Night House (2020)
-description:A depressed lady creates evil that consumes her partner. It then consumes her in a maze created by her husband.
+description:A widow begins to uncover her recently deceased husband's disturbing secrets.
 genre:psychological
 stars:8
 pros:Great imagery regarding the idea of multiple universe. If you like mathematical puzzles this movie has potential.
-cons:
+cons:The only real con was that I didn't see the realisim in passing the depression off to her partner causes him to become a serial killer.
 poster:thenighthouse.jpg
+=====================
+title:In the Earth (2021)
+description:As the world searches for a cure to a disastrous virus, a scientist and park scout venture deep in the forest for a routine equipment run.
+genre:natural
+stars:8
+pros:It's a nice look into a world ravaged by a pandemic but the other side of things. As if things just carry on. My favorite part is the idea of a shared conciousness now seperated...
+cons:It's a bit drawn out...
+poster:intheearth.jpg
