@@ -37,3 +37,59 @@ stars:10
 pros:Unicorn stabbings... need I say more?
 cons:
 poster:thecabininthewoods.jpg
+=====================
+title:Pooka! (2018)
+description:A struggling actor takes on a seasonal holiday job as the mascot for the year's hottest new toy: Pooka. However, after putting the costume on, he develops two personalities - one for himself, and one for Pooka.
+genre:psychological
+stars:7
+pros:It's hard to watch with him lose it... (in other words the movie is well done)
+cons:The Pooka outfit doesn't seem realistic to sell things to kids
+poster:pooka.jpg
+=====================
+title:Hereditary (2018)
+description:A grieving family is haunted by tragic and disturbing occurrences.
+genre:psychological,folk
+stars:10
+pros:This movie is just great. It feels slow but ends with a bang.
+cons:I don't like that he HAD to have a "male" body. A body is a body. He was male how he was born.
+poster:hereditary.jpg
+=====================
+title:Monsterland (2020)
+description:Encounters with Gothic beasts, including fallen angels and werewolves, broken people are driven to desperate acts in an attempt to repair their lives, ultimately showing there is a thin line between man and beast.
+genre:psychological,folk,body
+stars:10
+pros:I remember liking almost all of these..
+cons:Can't remember.
+poster:monsterland.jpg
+=====================
+title:The Village (2004)
+description:A series of events tests the beliefs of a small isolated countryside village.
+genre:folk
+stars:6
+pros:I liked the idea of an isolated village not knowing of modern Earth.
+cons:It would have been cooler if the evil thingy was real or if we got to see how she survived and experienced modern Earth.
+poster:thevillage.jpg
+=====================
+title:The Selling (2011)
+description:A too-honest-for-his-own-good real estate agent has to sell a haunted house before its ghostly inhabitants ruin his life.
+genre:comedy
+stars:5
+pros:It's funny silly and stupid. The look on the ladies face at the end is worth it! The main female protaganist is normal looking! WIN!
+cons:It's stupid lol.
+poster:theselling.jpg
+=====================
+title:Helstrom (2020)
+description:Daimon and Ana Helstrom are the son and daughter of a mysterious and powerful serial killer. The siblings have a complicated dynamic as they track down the terrorizing worst of humanity - each with their attitude and skills.
+genre:gothic
+stars:6
+pros:It's a fun full bodied tv show.
+cons:I get tired of seeing crazy body types. I just want normal looking people.
+poster:helstrom.jpg
+=====================
+title:Brahms: The Boy II (2020)
+description:After a family moves into the Heelshire Mansion, their young son soon makes friends with a life-like doll called Brahms.
+genre:gothic
+stars:7
+pros:Wasn't too bad. The ending look of the Brahms boy was really cool.
+cons:There's only so much you can do with evil possessed doll.
+poster:brahmstheboyii.jpg
