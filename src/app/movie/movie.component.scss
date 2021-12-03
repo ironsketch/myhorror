@@ -10,18 +10,19 @@
         .description {
             margin-bottom: 1em;
         }
-        
-        .stars {
-            text-align: center;
-            margin-bottom: 1em;
-        
-            span.star-numbers {
-                font-size: 1.5em;
-                padding-left: 1em;
-            }
+    }
+    
+    .stars {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    
+        span.star-numbers {
+            font-size: 1.5em;
+            padding-left: 1em;
         }
-        .pros-cons {
-            margin-bottom: 1em;
-        }
-    }    
+    }
+    .pros-cons {
+        margin-bottom: 1em;
+    }
 }

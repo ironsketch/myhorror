@@ -1,14 +1,14 @@
 <div class="container">
     <div class="navigation">
-        <button (click)="showMovies('body')">Body Horror</button>
-        <button (click)="showMovies('comedy')">Comedy Horror</button>
-        <button (click)="showMovies('folk')">Folk Horror</button>
-        <button (click)="showMovies('found footage')">Found Footage Horror</button>
-        <button (click)="showMovies('gothic')">Gothic Horror</button>
-        <button (click)="showMovies('natural')">Natural Horror</button>
-        <button (click)="showMovies('slasher')">Slasher Horror</button>
-        <button (click)="showMovies('teen')">Teen Horror</button>
-        <button (click)="showMovies('psychological')">Psychological Horror</button>
+        <button *ngIf="hasData(body)" (click)="showMovies(body)">Body Horror</button>
+        <button *ngIf="hasData(comedy)" (click)="showMovies(comedy)">Comedy Horror</button>
+        <button *ngIf="hasData(folk)" (click)="showMovies(folk)">Folk Horror</button>
+        <button *ngIf="hasData(found_footage)" (click)="showMovies(found_footage)">Found Footage Horror</button>
+        <button *ngIf="hasData(gothic)" (click)="showMovies(gothic)">Gothic Horror</button>
+        <button *ngIf="hasData(natural)" (click)="showMovies(natural)">Natural Horror</button>
+        <button *ngIf="hasData(slasher)" (click)="showMovies(slasher)">Slasher Horror</button>
+        <button *ngIf="hasData(teen)" (click)="showMovies(teen)">Teen Horror</button>
+        <button *ngIf="hasData(psychological)" (click)="showMovies(psychological)">Psychological Horror</button>
     </div>
     <div class="main-page">
         <div class="column">

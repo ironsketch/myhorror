@@ -1,22 +1,24 @@
 <p-accordionTab header="{{ movie.title }}">
-    <div class="row movie-container">
-        <img class="movie-poster" src="assets/img/{{ movie.poster }}" width="300px" /> 
-        <div class="col right-movie-container">
-            <div class="description">{{ movie.description }}</div>
-            <div class="row stars">
-                <ng-container *ngFor="let star of movie.stars">
-                    <img src="assets/img/star.png" width="30px" />
-                </ng-container>
-                <span class="star-numbers">{{ movie.stars.length }} / 10</span>
+    <div class="column movie-container">
+        <div class="row top-holder">
+            <img class="movie-poster" src="assets/img/{{ movie.poster }}" width="300px" /> 
+            <div class="col right-movie-container">
+                <div class="description">{{ movie.description }}</div>
             </div>
-            <p-accordion>
-                <p-accordionTab header="Pros (Possible Spoilers)">
-                    {{ movie.pros }}
-                </p-accordionTab>
-                <p-accordionTab header="Cons (Possible Spoilers)">
-                    {{ movie.cons }}    
-                </p-accordionTab>
-            </p-accordion>
         </div>
+        <div class="row stars">
+            <ng-container *ngFor="let star of movie.stars">
+                <img src="assets/img/star.png" width="30px" />
+            </ng-container>
+            <span class="star-numbers">{{ movie.stars.length }} / 10</span>
+        </div>
+        <p-accordion>
+            <p-accordionTab header="Pros (Possible Spoilers)">
+                {{ movie.pros }}
+            </p-accordionTab>
+            <p-accordionTab header="Cons (Possible Spoilers)">
+                {{ movie.cons }}    
+            </p-accordionTab>
+        </p-accordion>
     </div>
 </p-accordionTab>

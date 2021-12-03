@@ -30,21 +30,4 @@ body {
             justify-content: space-between;
         }
     }
-
-    button {
-        display: block;
-        background-color: black;
-        color: blanchedalmond;
-        border: blanchedalmond dashed 1px;
-        text-align: left;
-        width: 13em;
-        margin: 1em;
-        padding: 1em;
-        cursor: pointer;
-
-        &:hover {
-            color: red;
-            border-color: red;
-        }
-    }
 }

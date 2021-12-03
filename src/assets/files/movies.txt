@@ -21,3 +21,19 @@ stars:8
 pros:It's a nice look into a world ravaged by a pandemic but the other side of things. As if things just carry on. My favorite part is the idea of a shared conciousness now seperated...
 cons:It's a bit drawn out...
 poster:intheearth.jpg
+=====================
+title:The Rocky Horror Picture Show (1975)
+description:A newly-engaged couple have a breakdown in an isolated area and must seek shelter at the bizarre residence of Dr. Frank-n-Furter.
+genre:comedy
+stars:10
+pros:Everything
+cons:
+poster:therockyhorrorpictureshow.jpg
+=====================
+title:The Cabin in the Woods (2011)
+description:Five friends go for a break at a remote cabin, where they get more than they bargained for, discovering the truth behind the cabin in the woods.
+genre:comedy
+stars:10
+pros:Unicorn stabbings... need I say more?
+cons:
+poster:thecabininthewoods.jpg

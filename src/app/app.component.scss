@@ -1,10 +1,27 @@
 .container {
-    margin-left: 1em;
     margin-right: 1em;
 }
 
 .navigation {
     display: block;
+    font-size: 0.8em;
+
+    button {
+        display: block;
+        background-color: black;
+        color: blanchedalmond;
+        border: blanchedalmond dashed 1px;
+        text-align: left;
+        width: 10em;
+        margin: 1em;
+        padding: 1em;
+        cursor: pointer;
+
+        &:hover {
+            color: red;
+            border-color: red;
+        }
+    }
 }
 
 .header {
@@ -41,7 +58,7 @@ input.search-box {
     flex-grow: 1;
 
     .unknown-image {
-        text-align: right;
+        text-align: left;
     }
 
     .top-row {
