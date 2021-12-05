@@ -173,3 +173,19 @@ stars:4
 pros:I like the female actor.
 cons:I felt like she could have more control over her self. The movie seemed too unrealistic.
 poster:hypnotic.jpg
+=====================
+title:It (2017)
+description:In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.
+genre:gothic
+stars:7
+pros:I like the female actor.
+cons:
+poster:it.jpeg
+=====================
+title:Train to Busan (2016)
+description:While a zombie virus breaks out in South Korea, passengers struggle to survive on the train from Seoul to Busan.
+genre:body
+stars:10
+pros:Really great movie about zombies and the onslaught of attacks was definately a first on depicting the intensity of bodies.
+cons:
+poster:traintobusan.jpg
